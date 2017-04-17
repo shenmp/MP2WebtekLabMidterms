@@ -1,0 +1,97 @@
+@charset "UTF"-8;
+
+html, body{
+	padding: 5px;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #112851;
+}
+
+*{
+	float: none;
+}
+
+#AppBanner{
+	color: white;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body{
+	background: url(handshake.png);
+    background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+
+.candidates{
+	background: url(candidateBG.png);
+	margin-left: auto;
+	margin-right: auto;
+    width: 90%;
+    border: 3px solid #d1e1ff;
+    padding: 3px;
+	margin-top: 7px;
+}
+
+.wrapper{
+	background-image: url(bg.png);
+	margin: auto;
+    width: 50%;
+    border: 3px solid #01163f;
+	border-radius: 25px;
+    padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	 white-space: nowrap;
+}
+
+input[type="submit"]{
+	padding: 14px 23px;
+	color: #fff;
+	background-color: #2ECC54;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 4px solid #27AE60
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#submate{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 30%;
+    padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+
+}
+
+@media (max-width: 500px) and (max-height: 800px) {
+    body{
+	background: url(mobileBackground.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	}
+	
+	.wrapper{
+	margin: auto;
+    width: 90%;
+	height: 70%;
+	}
+	
+	#AppBanner h1{
+		font-size: 20px;
+	}
+	
+	#AppBanner h3{
+		font-size: 16px;
+	}
+
+	
+}
+

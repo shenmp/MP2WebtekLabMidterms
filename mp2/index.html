@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+ <html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title> SLU LHS Vote! </title>
+	<link rel="stylesheet" type="text/css" href="frontmobilestyle.css">
+    <link rel="icon" type="image/png" href="slu.png">
+    <script type="text/javascript" src="./validator.js"></script>
+  </head>
+		<body>
+            
+    <div id="AppBanner">
+	 <center><h1>Saint Louis University</h1> <h3>Laboratory Highschool Voting App</h3></center>
+	 </div>
+		<div class="container">
+		<img src="usericon.png"/> 
+			<form action="F:\mp2\index.html" method="post">
+				<div class="formInput">
+				  <input type="text" name="yourName" id="name" placeholder="Enter Full Name">
+                    <p id="invalid_1"></p>
+				</div>
+				<div class="formInput1">
+				   <select id="yearAndSection">
+				   <option value="">Year and Section</option>
+					<option value="7-A">7-A</option>
+					<option value="7-B">7-B</option>
+					<option value="8-C">8-C</option>
+					<option value="8-D">8-D</option>
+				  </select>
+				</div>
+			</form>
+            <input type="submit" name="submit" value="Vote Now!" class="loginBTN" onclick="validation()"> 
+		</div>
+		</body>
+ </html>
